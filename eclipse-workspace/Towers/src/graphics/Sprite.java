@@ -54,7 +54,7 @@ public class Sprite {
 	private BufferedImage loadSprite(String file) {
 		BufferedImage sprite = null;
 		try {
-			sprite = ImageIO.read(new File("/home/nitropawel/eclipse-workspace/Towers/res/" + file));
+			sprite = ImageIO.read(new File("/Users/walmat/IdeaProjects/towers1/eclipse-workspace/Towers/res/" + file));
 		} catch (Exception e) {
 			System.out.println("ERROR: could not load file: " + file);
 		}
